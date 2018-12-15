@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.wrapper--bg-gray {
+  background-color: #3a3a3a; }
+.wrapper__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; }
+.wrapper__logo {
+  width: 100%;
+  height: auto;
+  max-width: 400px; }
+
+/*# sourceMappingURL=styles.css.map */
