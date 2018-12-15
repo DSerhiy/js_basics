@@ -29,7 +29,8 @@ function selectGame() {
     '3 - Ultimate Randomizer\n' +
     '4 - Super Randomizer\n' + 
     '5 - JS Quiz\n' + 
-    '6 - Login'
+    '6 - Login\n' + 
+    '0 - Exit'
   );
   switch (gameIndex)  {
     case '1':
