@@ -9,7 +9,7 @@
       'Press Ok to play again or \n' +
       'Press CANCEL to go to main menu');
 
-      shouldPlayAgain ? playGame() : playGame = selectGame();
+      shouldPlayAgain ? playGame : playGame = selectGame(); // continue instead of playGame does not work
 
     } while (playGame);
   }, 100);   
@@ -81,13 +81,13 @@ function playUltimateRandomizer() {
 
 function playSuperRandomizer() {
   const startOfRandomScope = Number(prompt('Input a start of random scope:'));
-  const endOfRandomScope = Number(prompt('Input a end of random scope:'));
+  const endOfRandomScope = Number(prompt('Input an end of random scope:'));
   alert(`Random number between ${startOfRandomScope} and ${endOfRandomScope} is: ` +
            `${randomNumber(endOfRandomScope, startOfRandomScope)}`);
 }
 
 function  playJSQuze() {
-  const answer = prompt('What is the oficial name of JavaScript?');
+  const answer = prompt('What is the official name of JavaScript?');
   answer == 'ECMAScript' ?  alert('You are right!') : alert('Do not know? - "ECMAScript"');
 
   // if (answer == 'ECMAScript') {
