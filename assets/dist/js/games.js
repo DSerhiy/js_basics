@@ -17,7 +17,7 @@
 })();
 
 
-function randomNumber(end, start = 0) {
+function getRandomNumber(end, start = 0) {
   return Math.floor(Math.random() * (end - start) + 1) + start ;
 }
 
@@ -52,8 +52,8 @@ function selectGame() {
 
 function playDice() {
   alert('Press OK to role the dice')
-  const dice1 = randomNumber(6);
-  const dice2 = randomNumber(6); 
+  const dice1 = getRandomNumber(6);
+  const dice2 = getRandomNumber(6); 
   
   alert(
     `Dice #1:  ${dice1} \n` +
@@ -64,7 +64,7 @@ function playDice() {
 
 function playHeadsOrTails() {
   alert('Press Ok to flip a coin.')
-  switch (randomNumber(2)) {
+  switch (getRandomNumber(2)) {
     case 1:
       alert('HEAD');
       break;
@@ -76,14 +76,14 @@ function playHeadsOrTails() {
 
 function playUltimateRandomizer() {
   const randomScope = prompt('Input a limit of random scope:');
-  alert(`Random number between 1 and ${randomScope} is: ${randomNumber(randomScope)}`);
+  alert(`Random number between 1 and ${randomScope} is: ${getRandomNumber(randomScope)}`);
 }
 
 function playSuperRandomizer() {
   const startOfRandomScope = Number(prompt('Input a start of random scope:'));
   const endOfRandomScope = Number(prompt('Input an end of random scope:'));
   alert(`Random number between ${startOfRandomScope} and ${endOfRandomScope} is: ` +
-           `${randomNumber(endOfRandomScope, startOfRandomScope)}`);
+           `${getRandomNumber(endOfRandomScope, startOfRandomScope)}`);
 }
 
 function  playJSQuze() {
