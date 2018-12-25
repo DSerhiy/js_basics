@@ -1,0 +1,28 @@
+.playlist {
+  width: fit-content;
+  margin: 0;
+  padding: 20px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    padding: 5px 15px 5px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    &:nth-child(2n-1){background-color: rgba(189, 189, 189, 0.322);}
+   }
+  &__author {
+    color: #4a7398;
+    margin-left: 10px;
+    text-transform: capitalize;
+  }
+  &__song  {
+    margin-left: 5px;
+    color:  #505050;
+    text-transform: capitalize;
+  }
+  &__photo {
+    width: 35px;
+    height: 35px;
+  }
+}

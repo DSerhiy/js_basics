@@ -1,7 +1,14 @@
 {
-"version": 3,
-"mappings": "AAAA,IAAK;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;ACAV,iBAAW;EACT,gBAAgB,ECHP,OAAe;ADM1B,eAAS;EELT,OAAO,EAAE,IAAI;EAKb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EFCjB,UAAU,EAAE,KAAK;AAGnB,cAAQ;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,KAAK",
-"sources": ["../../src/scss/_common.scss","../../src/scss/_wrapper.scss","../../src/scss/_variables.scss","../../src/scss/_mixins.scss"],
-"names": [],
-"file": "styles.css"
+    "version": 3,
+    "mappings": "AGAA,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;ACDE,AAAD,iBAAU,CAAC;EACT,gBAAgB,EHHP,OAAe;CGIzB;;AAEA,AAAD,eAAQ,CAAC;EFLT,OAAO,EAAE,IAAI;EAKb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EECjB,UAAU,EAAE,KAAK;CAClB;;AAEA,AAAD,cAAO,CAAC;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,KAAK;CACjB;;ACfH,AAAA,SAAS,CAAC;EACR,KAAK,EAAE,WAAW;EAClB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,IAAI;CAwBd;;AAtBE,AAAD,eAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,gBAAgB;EACzB,WAAW,EAAE,+CAA+C;CAE5D;;AAPD,AAMC,eANK,AAMJ,UAAW,CAAA,IAAI,EAAC;EAAC,gBAAgB,EAAE,0BAA0B;CAAG;;AAElE,AAAD,iBAAS,CAAC;EACR,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,UAAU;CAC3B;;AACA,AAAD,eAAO,CAAE;EACP,WAAW,EAAE,GAAG;EAChB,KAAK,EAAG,OAAO;EACf,cAAc,EAAE,UAAU;CAC3B;;AACA,AAAD,gBAAQ,CAAC;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "../../src/scss/styles.scss",
+        "../../src/scss/_variables.scss",
+        "../../src/scss/_mixins.scss",
+        "../../src/scss/_common.scss",
+        "../../src/scss/_wrapper.scss",
+        "../../src/scss/_song-list.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
 }

@@ -1,17 +1,69 @@
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .wrapper--bg-gray {
-  background-color: #3a3a3a; }
+  background-color: #3a3a3a;
+}
+
 .wrapper__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
 .wrapper__logo {
   width: 100%;
   height: auto;
-  max-width: 400px; }
+  max-width: 400px;
+}
 
+.playlist {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+  padding: 20px;
+}
+
+.playlist__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3px;
+  padding: 5px 15px 5px 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.playlist__item:nth-child(2n-1) {
+  background-color: rgba(189, 189, 189, 0.322);
+}
+
+.playlist__author {
+  color: #4a7398;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
+.playlist__song {
+  margin-left: 5px;
+  color: #505050;
+  text-transform: capitalize;
+}
+
+.playlist__photo {
+  width: 35px;
+  height: 35px;
+}
 /*# sourceMappingURL=styles.css.map */
